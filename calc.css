@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Orbitron&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    height: 400px;
+  
+}
+
+input{
+    width: 330px;
+    height: 77px;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: rgb(249, 187, 72);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: rgb(41, 41, 41);
+    color: white;
+overflow-x: scroll;
+}
+
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 9px;
+ 
+ 
+}
+
+.btn{
+height: 100%;
+width: 100%;
+background-color: rgb(48, 48, 48);
+}
+
+#equal{
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    grid-row-start: 4;
+    grid-row-end:6 ;
+    
+    background: rgb(249, 187, 72);
+
+}
+
+button{
+    border: none;
+    color: white;
+    background-color: rgb(201, 201, 201);
+    font-size: 35px;
+      border-radius: 30px;
+}
+
+
+
+
+#multiply{
+    background: rgb(249, 187, 72); 
+}
+
+#minus{
+    background: rgb(249, 187, 72); 
+}
+
+
+#plus{
+    background: rgb(249, 187, 72); 
+}
+
+
